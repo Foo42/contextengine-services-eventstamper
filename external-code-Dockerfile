@@ -1,6 +1,0 @@
-FROM node
-RUN ["npm", "install", "supervisor", "-g"]
-WORKDIR /code
-EXPOSE 9005
-ENV NODE_ENV production
-CMD ["supervisor", "."]
